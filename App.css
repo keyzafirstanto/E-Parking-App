@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital,wght@0,400;0,500;1,500&display=swap');
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin-left: 20rem;
+  z-index: -1;
+}
+
+.tree_1 {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin-right: 200vh;
+}
+
+.hero-container {
+  /* background: url('/images/img-home.jpg') center center/cover no-repeat; */
+  height: 70vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  /* margin: 2rem; */
+  justify-content: left;
+  align-items: left;
+  /* box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2); */
+  object-fit: contain;
+  color: 'white';
+  font-family: 'STIX Two Text', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+}
+
+.hero-section {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2); */
+  /* object-fit: contain; */
+  color: 'white';
+  font-family: 'STIX Two Text', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+}
+
+.home-page {
+  font-family: 'STIX Two Text', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+}
+
+.click-container {
+  align-items: center;
+  border-radius: 20px;
+}
+
+.hero-container > h1 {
+  color: white;
+  font-size: 50px;
+  letter-spacing: 2px;
+}
+
+.register-user-button {
+  text-decoration: none;
+  color: white;
+  font-size: 30px;
+}
+
+h1 {
+  color: white;
+  font-size: 50rem;
+  letter-spacing: 2px;
+  font-family: 'STIX Two Text', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+}
+
+h2 {
+  color: black;
+  font-size: 7rem;
+  letter-spacing: 2px;
+}
+
+h5 {
+  color: black;
+  font-size: 5rem;
+  letter-spacing: 2px;
+  font-family: 'STIX Two Text', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+}
+
+.checkout_page {
+  color: black;
+  letter-spacing: 2px;
+  font-family: 'Typewriter', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+}
+
+.h4_home {
+  color: white;
+  font-size: 45px;
+  margin-top: 20rem;
+  letter-spacing: 2px;
+}
